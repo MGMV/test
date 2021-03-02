@@ -21,5 +21,17 @@ namespace WindowsFormsApp1
         {
 
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            button1.BackColor = Color.FromArgb(73, 140, 81);
+            this.BackColor = Color.FromArgb(255,255,255);
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form2 form2 = new Form2();
+            form2.Show();
+        }
     }
 }
